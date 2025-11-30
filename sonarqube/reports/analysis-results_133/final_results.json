@@ -1,0 +1,3354 @@
+[
+  {
+    "idx": 198499,
+    "target": 1,
+    "branch": "analysis-198499-vuln-19787039905",
+    "scanned_dir": ".",
+    "issues": [
+      {
+        "type": "CODE_SMELL",
+        "rule": "php:S1131",
+        "message": "Remove the useless trailing whitespaces at the end of this line.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:asm_avr.inc",
+        "line": 45
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "php:S1131",
+        "message": "Remove the useless trailing whitespaces at the end of this line.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:asm_avr.inc",
+        "line": 861
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "php:S1131",
+        "message": "Remove the useless trailing whitespaces at the end of this line.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:asm_avr.inc",
+        "line": 993
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "php:S1131",
+        "message": "Remove the useless trailing whitespaces at the end of this line.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:curve-specific.inc",
+        "line": 1208
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "php:S1131",
+        "message": "Remove the useless trailing whitespaces at the end of this line.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:curve-specific.inc",
+        "line": 1224
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"/cross/arm_cortex/bin/arm-none-eabi-\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:emk_project.py",
+        "line": 69
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 6
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 20
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ldmia r1!, {%s}\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 29
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ldmia r2!, {%s}\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 30
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 32
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 40
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adds r12, r12, r11\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 43
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 50
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mov r%s, #0\" 6 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 55
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"umull r%s, r%s, r%s, r%s\" 8 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 57
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adds r%s, r%s, r%s\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 58
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adcs r%s, r%s, r%s\" 6 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 59
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r%s, #0\" 8 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 60
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"stmia r0!, {r%s}\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 61
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 62
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 72
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 80
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 92
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 98
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 108
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 118
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 137
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 156
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 167
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 175
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 188
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 6
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 26
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ld r%s, x+\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 33
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ld r%s, y+\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 35
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 38
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mul r2, r12\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 40
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"st z+, r0\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 41
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 49
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"add r22, r0\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 52
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r23, r1\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 53
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 59
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ldi r%s, 0\" 6 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 64
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mul r%s, r%s\" 8 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 66
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"add r%s, r0\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 67
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r1\" 8 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 68
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r25\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 69
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"st z+, r%s\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 70
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 71
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 81
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 88
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 101
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 110
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 120
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 131
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 150
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 169
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 181
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 188
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 201
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 6
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 28
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ld r%s, x+\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 35
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ld r%s, y+\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 36
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 60
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mul r%s, r%s\" 8 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 63
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ldi r%s, 0\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 66
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ld r0, z\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 67
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"add r%s, r0\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 68
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r25\" 9 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 69
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r1\" 7 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 72
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"st z+, r%s\" 6 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 74
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 75
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 93
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 113
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 134
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 6
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 12
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 21
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adds r%s, r%s, r1\" 5 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 26
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r%s, #0\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 28
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 51
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 58
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 62
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r10, r10, #0\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 66
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 68
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 74
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 81
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 85
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 95
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 109
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mov r%s, #0\" 5 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 114
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"umull r%s, r%s, r%s, r%s\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 120
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adds r%s, r%s, r%s\" 6 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 124
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adcs r%s, r%s, r%s\" 12 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 125
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r%s, r%s\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 126
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"stmia r0!, {r%s}\" 7 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 138
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 139
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 178
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 207
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"umull r1, r%s, r%s, r%s\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 211
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 223
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 235
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 6
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 12
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 30
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S125",
+        "message": "Remove this commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 37
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ld r%s, x+\" 5 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 41
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"st z+, r0\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 50
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 54
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 59
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ldi r%s, 0\" 9 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 64
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mul r%s, r%s\" 22 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 66
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"add r%s, r0\" 18 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 67
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r1\" 17 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 68
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, %s\" 18 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 69
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"st z+, r%s\" 13 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 70
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 71
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 89
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 104
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 119
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 128
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 132
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 141
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 146
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 156
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"add r23, r0\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 159
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r24, r1\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 160
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r22, %s\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 161
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 170
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mov r%s, r0\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 182
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mov r%s, r1\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 183
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"lsl r%s\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 190
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"rol r%s\" 6 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 191
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"add r%s, r%s\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 202
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r%s\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 203
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 208
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 255
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 291
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 307
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 319
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"vli\" is \"unsigned char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_compress.c",
+        "line": 12
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"c\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_compress.c",
+        "line": 50
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_compress.c",
+        "line": 51
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"vli\" is \"unsigned char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_compute.c",
+        "line": 8
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"c\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_compute.c",
+        "line": 44
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_compute.c",
+        "line": 45
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"vli\" is \"unsigned char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdh.c",
+        "line": 8
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdh.c",
+        "line": 15
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"c\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdh.c",
+        "line": 43
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdh.c",
+        "line": 44
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdsa.c",
+        "line": 9
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"c\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdsa.c",
+        "line": 34
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdsa.c",
+        "line": 35
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 209
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 220
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S108",
+        "message": "Fill this compound statement, remove it, or add a nested comment explaining why it is empty.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 236
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S886",
+        "message": "Refactor this loop so that it is less error-prone.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 253
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'uECC_word_t' (aka 'unsigned long') to 'bitcount_t' (aka 'short')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 257
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 264
+      },
+      {
+        "type": "BUG",
+        "rule": "c:S836",
+        "message": "Assigned value is garbage or undefined",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 265
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 275
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 292
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'uECC_word_t' (aka 'unsigned long') to 'cmpresult_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 310
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5350",
+        "message": "Make the type of this variable a pointer-to-const. The current type of \"end\" is \"unsigned long *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 316
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 336
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 355
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 418
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 575
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 591
+      },
+      {
+        "type": "BUG",
+        "rule": "c:S3519",
+        "message": "Access of 'mod_multiple' containing 8 elements at negative index -1",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 600
+      },
+      {
+        "type": "BUG",
+        "rule": "c:S3519",
+        "message": "Access of 'u' at negative byte offset",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 685
+      },
+      {
+        "type": "BUG",
+        "rule": "c:S3519",
+        "message": "Access of 'v' at negative byte offset",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 685
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 695
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 793
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 824
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 876
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 890
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 906
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"private_key\" is \"unsigned long *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 916
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 958
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'uECC_word_t' (aka 'unsigned long') to 'uint8_t' (aka 'unsigned char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 960
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 968
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 969
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"tries\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 991
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"tries\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1016
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1017
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5350",
+        "message": "Make the type of this variable a pointer-to-const. The current type of \"initial_Z\" is \"unsigned long *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1043
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1082
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1170
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1174
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'unsigned int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1208
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'unsigned int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1227
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'unsigned int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1228
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1248
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"tries\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1314
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1315
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1364
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"K\" is \"unsigned char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1365
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1386
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1395
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1405
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1423
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1459
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1476
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1478
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1538
+      }
+    ]
+  },
+  {
+    "idx": 275987,
+    "target": 0,
+    "branch": "analysis-275987-fixed-19787039905",
+    "scanned_dir": ".",
+    "issues": [
+      {
+        "type": "CODE_SMELL",
+        "rule": "php:S1131",
+        "message": "Remove the useless trailing whitespaces at the end of this line.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:asm_avr.inc",
+        "line": 45
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "php:S1131",
+        "message": "Remove the useless trailing whitespaces at the end of this line.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:asm_avr.inc",
+        "line": 861
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "php:S1131",
+        "message": "Remove the useless trailing whitespaces at the end of this line.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:asm_avr.inc",
+        "line": 993
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "php:S1131",
+        "message": "Remove the useless trailing whitespaces at the end of this line.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:curve-specific.inc",
+        "line": 1208
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "php:S1131",
+        "message": "Remove the useless trailing whitespaces at the end of this line.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:curve-specific.inc",
+        "line": 1224
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"/cross/arm_cortex/bin/arm-none-eabi-\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:emk_project.py",
+        "line": 69
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 6
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 20
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ldmia r1!, {%s}\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 29
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ldmia r2!, {%s}\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 30
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 32
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 40
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adds r12, r12, r11\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 43
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 50
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mov r%s, #0\" 6 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 55
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"umull r%s, r%s, r%s, r%s\" 8 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 57
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adds r%s, r%s, r%s\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 58
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adcs r%s, r%s, r%s\" 6 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 59
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r%s, #0\" 8 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 60
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"stmia r0!, {r%s}\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 61
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 62
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 72
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 80
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 92
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 98
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 108
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 118
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 137
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 156
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 167
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 175
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_arm.py",
+        "line": 188
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 6
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 26
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ld r%s, x+\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 33
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ld r%s, y+\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 35
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 38
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mul r2, r12\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 40
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"st z+, r0\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 41
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 49
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"add r22, r0\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 52
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r23, r1\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 53
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 59
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ldi r%s, 0\" 6 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 64
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mul r%s, r%s\" 8 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 66
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"add r%s, r0\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 67
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r1\" 8 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 68
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r25\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 69
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"st z+, r%s\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 70
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 71
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 81
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 88
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 101
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 110
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 120
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 131
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 150
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 169
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 181
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 188
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr.py",
+        "line": 201
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 6
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 28
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ld r%s, x+\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 35
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ld r%s, y+\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 36
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 60
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mul r%s, r%s\" 8 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 63
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ldi r%s, 0\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 66
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ld r0, z\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 67
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"add r%s, r0\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 68
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r25\" 9 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 69
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r1\" 7 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 72
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"st z+, r%s\" 6 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 74
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 75
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 93
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 113
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/mult_avr_extra.py",
+        "line": 134
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 6
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 12
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 21
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adds r%s, r%s, r1\" 5 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 26
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r%s, #0\" 10 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 28
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 51
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 58
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 62
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r10, r10, #0\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 66
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 68
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 74
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 81
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 85
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 95
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 109
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mov r%s, #0\" 5 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 114
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"umull r%s, r%s, r%s, r%s\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 120
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adds r%s, r%s, r%s\" 6 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 124
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adcs r%s, r%s, r%s\" 12 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 125
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r%s, r%s\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 126
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"stmia r0!, {r%s}\" 7 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 138
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 139
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 178
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 207
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"umull r1, r%s, r%s, r%s\" 4 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 211
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 223
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_arm.py",
+        "line": 235
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 6
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 12
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 30
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S125",
+        "message": "Remove this commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 37
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ld r%s, x+\" 5 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 41
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"st z+, r0\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 50
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 54
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 59
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"ldi r%s, 0\" 9 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 64
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mul r%s, r%s\" 22 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 66
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"add r%s, r0\" 18 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 67
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r1\" 17 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 68
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, %s\" 18 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 69
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"st z+, r%s\" 13 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 70
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 71
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 89
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 104
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 119
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 128
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 132
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 141
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 146
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 156
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"add r23, r0\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 159
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r24, r1\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 160
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r22, %s\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 161
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 170
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mov r%s, r0\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 182
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"mov r%s, r1\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 183
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"lsl r%s\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 190
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"rol r%s\" 6 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 191
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"add r%s, r%s\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 202
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:S1192",
+        "message": "Define a constant instead of duplicating this literal \"adc r%s, r%s\" 3 times.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 203
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 208
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 255
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 291
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 307
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "python:PrintStatementUsage",
+        "message": "Replace print statement by built-in function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:scripts/square_avr.py",
+        "line": 319
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"vli\" is \"unsigned char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_compress.c",
+        "line": 12
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"c\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_compress.c",
+        "line": 50
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_compress.c",
+        "line": 51
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"vli\" is \"unsigned char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_compute.c",
+        "line": 8
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"c\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_compute.c",
+        "line": 44
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_compute.c",
+        "line": 45
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"vli\" is \"unsigned char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdh.c",
+        "line": 8
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdh.c",
+        "line": 15
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"c\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdh.c",
+        "line": 43
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdh.c",
+        "line": 44
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdsa.c",
+        "line": 9
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"c\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdsa.c",
+        "line": 34
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:test/test_ecdsa.c",
+        "line": 35
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 209
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 220
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S108",
+        "message": "Fill this compound statement, remove it, or add a nested comment explaining why it is empty.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 236
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S886",
+        "message": "Refactor this loop so that it is less error-prone.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 253
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'uECC_word_t' (aka 'unsigned long') to 'bitcount_t' (aka 'short')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 257
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 264
+      },
+      {
+        "type": "BUG",
+        "rule": "c:S836",
+        "message": "Assigned value is garbage or undefined",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 265
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 275
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 292
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'uECC_word_t' (aka 'unsigned long') to 'cmpresult_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 310
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5350",
+        "message": "Make the type of this variable a pointer-to-const. The current type of \"end\" is \"unsigned long *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 316
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 336
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 355
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 418
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 575
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 591
+      },
+      {
+        "type": "BUG",
+        "rule": "c:S3519",
+        "message": "Access of 'mod_multiple' containing 8 elements at negative index -1",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 600
+      },
+      {
+        "type": "BUG",
+        "rule": "c:S3519",
+        "message": "Access of 'u' at negative byte offset",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 685
+      },
+      {
+        "type": "BUG",
+        "rule": "c:S3519",
+        "message": "Access of 'v' at negative byte offset",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 685
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 695
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 793
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 824
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 876
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 890
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 906
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"private_key\" is \"unsigned long *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 916
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 958
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'uECC_word_t' (aka 'unsigned long') to 'uint8_t' (aka 'unsigned char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 960
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 968
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 969
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"tries\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 991
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"tries\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1016
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1017
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5350",
+        "message": "Make the type of this variable a pointer-to-const. The current type of \"initial_Z\" is \"unsigned long *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1043
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1082
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1170
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1174
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'unsigned int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1208
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'unsigned int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1227
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'unsigned int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1228
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5350",
+        "message": "Make the type of this variable a pointer-to-const. The current type of \"initial_Z\" is \"unsigned long *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1241
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1249
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"tries\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1323
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1324
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1373
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"K\" is \"unsigned char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1374
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1395
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1404
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1414
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1432
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1468
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1485
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'wordcount_t' (aka 'signed char')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1487
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:uECC.c",
+        "line": 1547
+      }
+    ]
+  }
+]

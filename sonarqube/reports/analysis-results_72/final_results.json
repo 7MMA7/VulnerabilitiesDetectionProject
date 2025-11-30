@@ -1,0 +1,4818 @@
+[
+  {
+    "idx": 196611,
+    "target": 1,
+    "branch": "analysis-196611-vuln-19792133458",
+    "scanned_dir": "src",
+    "issues": [
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'qb_log_facility2int'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.c",
+        "line": 63
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared library function 'strcasecmp' with type 'int (const char *, const char *)'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.c",
+        "line": 72
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'qb_log_format_set'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.c",
+        "line": 81
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S959",
+        "message": "Remove this #undef directive that undefines a non-existing macro.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.h",
+        "line": 32
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S959",
+        "message": "Remove this #undef directive that undefines a non-existing macro.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.h",
+        "line": 33
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S959",
+        "message": "Remove this #undef directive that undefines a non-existing macro.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.h",
+        "line": 34
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S959",
+        "message": "Remove this #undef directive that undefines a non-existing macro.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.h",
+        "line": 35
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S841",
+        "message": "This enumerator has the implicit value '0' that is shared with other enumerators: give it a unique value or make the duplication explicit.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.h",
+        "line": 38
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S923",
+        "message": "Remove use of ellipsis notation.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/nametag_libsystemd.c",
+        "line": 34
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1301",
+        "message": "Replace this \"switch\" statement by \"if\" statements to increase readability.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/alt/nametag_libsystemd.c",
+        "line": 58
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1116",
+        "message": "Suspicious semicolon.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/alt/nametag_libsystemd.c",
+        "line": 68
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared library function 'vsnprintf' with type 'int (char *restrict, unsigned long, const char *restrict, struct __va_list_tag *)'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/nametag_libsystemd.c",
+        "line": 73
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5281",
+        "message": "format string is not a string literal",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/nametag_libsystemd.c",
+        "line": 73
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'sd_notifyf'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/nametag_libsystemd.c",
+        "line": 76
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1905",
+        "message": "Remove this redundant cast.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/alt/range2random_glib.c",
+        "line": 32
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S2479",
+        "message": "Replace the tabulation characters with its escaped value \"\\t\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 32
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 27 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 152
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 157
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S7116",
+        "message": "If you want to access the first element of this array, do it explicitly directly instead of through a decayed pointer.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 160
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_free'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 242
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_strdup'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 280
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_hash_table_insert'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 284
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 306
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_hash_table_lookup_extended'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 316
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_hash_table_remove'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 321
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"localtime\" by a call to \"localtime_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 340
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_hash_table_lookup'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 361
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1820",
+        "message": "Refactor this structure so it has no more than 20 fields, rather than the 23 it currently has.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/booth.h",
+        "line": 285
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 44
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 68
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3562",
+        "message": "Add a \"default\" case to this switch statement.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 90
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'uLong' (aka 'unsigned long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 191
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'uLong' (aka 'unsigned long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 203
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S859",
+        "message": "cast from 'const char *' to 'char *' drops const qualifier",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 237
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"cp\" is \"char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 256
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 330
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 338
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"val\" is \"char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 387
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"strtok\" by a call to \"strtok_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 427
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"strtok\" by a call to \"strtok_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 430
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"key\" is \"char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 454
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5350",
+        "message": "Make the type of this variable a pointer-to-const. The current type of \"tp\" is \"struct toktab *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 456
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"tp\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 458
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"strtok\" by a call to \"strtok_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 478
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"strtok\" by a call to \"strtok_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 489
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"strtok\" by a call to \"strtok_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 499
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"strtok\" by a call to \"strtok_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 510
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_list_append'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 520
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 167 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 541
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 545
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 547
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S924",
+        "message": "Reduce the number of nested \"goto\" statements from 24 to 1 authorized.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 602
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 619
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1219",
+        "message": "Remove this misleading \"no_value\" label.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 664
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'unsigned long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 672
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 681
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 681
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'uint16_t' (aka 'unsigned short')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 709
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 775
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 796
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 805
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 819
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 829
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 838
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S859",
+        "message": "cast from 'const char *' to 'char *' drops const qualifier",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 883
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 922
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 932
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'uid_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 934
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"getpwnam\" by a call to \"getpwnam_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 942
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 944
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 944
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 953
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'gid_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 955
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"getgrnam\" by a call to \"getgrnam_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 963
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 965
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 965
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 982
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"site\" is \"char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 997
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 1008
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 1033
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3562",
+        "message": "Add a \"default\" case to this switch statement.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 1047
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1820",
+        "message": "Refactor this structure so it has no more than 20 fields, rather than the 42 it currently has.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.h",
+        "line": 77
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1820",
+        "message": "Refactor this structure so it has no more than 20 fields, rather than the 21 it currently has.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.h",
+        "line": 292
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1905",
+        "message": "Remove this redundant cast.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 43
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"fd\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 62
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S7116",
+        "message": "If you want to access the first element of this array, do it explicitly directly instead of through a decayed pointer.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 83
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 130
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"sig\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 155
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 169
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 192
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 193
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 230
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"node\" is \"struct booth_site *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 38
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'time_t' (aka 'long') to 'uint32_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 90
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 91
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 121
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3358",
+        "message": "Extract this nested conditional operator into an independent statement.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 143
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"site\" is \"struct booth_site *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 156
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 264
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long') to 'unsigned int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 271
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"tk\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 274
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 283
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 288
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S859",
+        "message": "cast from 'const struct booth_site *' to 'struct booth_site *' drops const qualifier",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 97
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S912",
+        "message": "Remove any side effects from right hand operands of logical || operator.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 126
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 210
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 220
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 222
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"localtime\" by a call to \"localtime_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 237
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'unsigned int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 264
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5350",
+        "message": "Make the type of this variable a pointer-to-const. The current type of \"p\" is \"char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 291
+      },
+      {
+        "type": "BUG",
+        "rule": "c:S3519",
+        "message": "Memory copy function overflows the destination buffer",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 303
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 335
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S936",
+        "message": "Either add a parameter list or the \"&\" operator to this use of \"message_recv\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 414
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 434
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3358",
+        "message": "Extract this nested conditional operator into an independent statement.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 447
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: '__off_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 470
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 479
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 34 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 509
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 513
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 549
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 555
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 694
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S7116",
+        "message": "If you want to access the first element of this array, do it explicitly directly instead of through a decayed pointer.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 696
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 709
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 40 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 750
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 757
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S7116",
+        "message": "If you want to access the first element of this array, do it explicitly directly instead of through a decayed pointer.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 771
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 834
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 854
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 868
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1066",
+        "message": "Merge this \"if\" statement with the enclosing one.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 901
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 916
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S2479",
+        "message": "Replace the tabulation characters with its escaped value \"\\t\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 967
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 998
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"hostname\" is \"char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1009
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1011
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'socklen_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1022
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 89 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1039
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S924",
+        "message": "Reduce the number of nested \"goto\" statements from 2 to 1 authorized.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1125
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1149
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1187
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1330
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1332
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1366
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"sig\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1455
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"sig\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1460
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1066",
+        "message": "Merge this \"if\" statement with the enclosing one.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1480
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'set_proc_title'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1517
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'init_set_proc_title'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1621
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'cl_log_set_entity'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1635
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3358",
+        "message": "Extract this nested conditional operator into an independent statement.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 139
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1905",
+        "message": "Remove this redundant cast.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 142
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 208
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S886",
+        "message": "Refactor this loop so that it is less error-prone.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 211
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S912",
+        "message": "Remove any side effects from right hand operands of logical && operator.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 211
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"name\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 279
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"name\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 286
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 289
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 304
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"name\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 307
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"name\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 314
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 319
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"tk\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 322
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"name\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 322
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"val\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 323
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 354
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_strdup'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 375
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 391
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'xmlDocGetRootElement'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 397
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'xmlGetLastError'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 462
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 486
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"msg\" is \"struct boothc_ticket_msg *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 71
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"msg\" is \"struct boothc_ticket_msg *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 110
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 157
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5350",
+        "message": "Make the type of this variable a pointer-to-const. The current type of \"v\" is \"struct booth_site *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 160
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 162
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 182
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1066",
+        "message": "Merge this \"if\" statement with the enclosing one.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 477
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 719
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1066",
+        "message": "Merge this \"if\" statement with the enclosing one.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 901
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 29 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 919
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 926
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_list_append'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/request.c",
+        "line": 49
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S859",
+        "message": "cast from 'const void *' to 'struct request *' drops const qualifier",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/request.c",
+        "line": 57
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_list_delete_link'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/request.c",
+        "line": 64
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 54
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 107
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S924",
+        "message": "Reduce the number of nested \"goto\" statements from 2 to 1 authorized.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 221
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_hash_table_lookup'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 226
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 34 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 392
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 397
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 398
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"localtime\" by a call to \"localtime_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 426
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"localtime\" by a call to \"localtime_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 436
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S7116",
+        "message": "If you want to access the first element of this array, do it explicitly directly instead of through a decayed pointer.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 439
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"site_index\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 478
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 479
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'unsigned int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 500
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 27 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 575
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 678
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 742
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 743
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 810
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 936
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 955
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 48 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1009
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1038
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1056
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1062
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1271
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1359
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1364
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1366
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1368
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1382
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:src/ticket.h",
+        "line": 156
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 32
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"a\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 36
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"p\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 45
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"p\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 50
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 54
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"src\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 89
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"a\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 97
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"b\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 97
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"a\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 108
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"b\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 108
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 136
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'TIMEVAL_TO_TIMESPEC'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 141
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 171
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'TIMEVAL_TO_TIMESPEC'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 176
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"ipaddr\" is \"unsigned char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 81
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 89
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 90
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5350",
+        "message": "Make the type of this variable a pointer-to-const. The current type of \"n_a\" is \"unsigned char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 91
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 101
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1066",
+        "message": "Merge this \"if\" statement with the enclosing one.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 132
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 39 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 145
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'unsigned char'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 184
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 204
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 233
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 247
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 337
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 340
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 356
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 359
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 361
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 371
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 382
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 508
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 536
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 595
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 597
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1066",
+        "message": "Merge this \"if\" statement with the enclosing one.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 608
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 624
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 647
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 657
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 715
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 752
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 817
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 856
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 888
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"data\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 978
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"len\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 978
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"from\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 1052
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"buf\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 1052
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"len\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 1052
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3562",
+        "message": "Add a \"default\" case to this switch statement.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.h",
+        "line": 76
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 295
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 583
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 584
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 585
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 586
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 214
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1135
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 428
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 433
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5816",
+        "message": "Make sure use of \"strncpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 147
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5816",
+        "message": "Make sure use of \"strncpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 891
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5816",
+        "message": "Make sure use of \"strncpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 797
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5816",
+        "message": "Make sure use of \"strncpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1005
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5816",
+        "message": "Make sure use of \"strncpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1588
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5816",
+        "message": "Make sure use of \"strncpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1625
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5814",
+        "message": "Make sure use of \"strcat\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 215
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5814",
+        "message": "Make sure use of \"strcat\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 216
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5814",
+        "message": "Make sure use of \"strcat\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1150
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5814",
+        "message": "Make sure use of \"strcat\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1503
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5814",
+        "message": "Make sure use of \"strcat\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 437
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 672
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 684
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 685
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 886
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 209
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 209
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1000
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S6069",
+        "message": "Make sure use of \"sprintf\" function is safe here or replace it with a call to \"snprintf\".",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 43
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S6069",
+        "message": "Make sure use of \"sprintf\" function is safe here or replace it with a call to \"snprintf\".",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 115
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S6069",
+        "message": "Make sure use of \"sprintf\" function is safe here or replace it with a call to \"snprintf\".",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 117
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S2612",
+        "message": "Granting permissions to \"others\" can lead to unauthorized access to files.",
+        "severity": "MEDIUM",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 875
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S2612",
+        "message": "Granting permissions to \"others\" can lead to unauthorized access to files.",
+        "severity": "MEDIUM",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 882
+      }
+    ]
+  },
+  {
+    "idx": 241040,
+    "target": 0,
+    "branch": "analysis-241040-fixed-19792133458",
+    "scanned_dir": "src",
+    "issues": [
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'qb_log_facility2int'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.c",
+        "line": 63
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared library function 'strcasecmp' with type 'int (const char *, const char *)'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.c",
+        "line": 72
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'qb_log_format_set'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.c",
+        "line": 81
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S959",
+        "message": "Remove this #undef directive that undefines a non-existing macro.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.h",
+        "line": 32
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S959",
+        "message": "Remove this #undef directive that undefines a non-existing macro.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.h",
+        "line": 33
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S959",
+        "message": "Remove this #undef directive that undefines a non-existing macro.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.h",
+        "line": 34
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S959",
+        "message": "Remove this #undef directive that undefines a non-existing macro.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.h",
+        "line": 35
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S841",
+        "message": "This enumerator has the implicit value '0' that is shared with other enumerators: give it a unique value or make the duplication explicit.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/alt/logging_libqb.h",
+        "line": 38
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S923",
+        "message": "Remove use of ellipsis notation.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/nametag_libsystemd.c",
+        "line": 34
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1301",
+        "message": "Replace this \"switch\" statement by \"if\" statements to increase readability.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/alt/nametag_libsystemd.c",
+        "line": 58
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1116",
+        "message": "Suspicious semicolon.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/alt/nametag_libsystemd.c",
+        "line": 68
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared library function 'vsnprintf' with type 'int (char *restrict, unsigned long, const char *restrict, struct __va_list_tag *)'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/nametag_libsystemd.c",
+        "line": 73
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5281",
+        "message": "format string is not a string literal",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/nametag_libsystemd.c",
+        "line": 73
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'sd_notifyf'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/alt/nametag_libsystemd.c",
+        "line": 76
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1905",
+        "message": "Remove this redundant cast.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/alt/range2random_glib.c",
+        "line": 32
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S2479",
+        "message": "Replace the tabulation characters with its escaped value \"\\t\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 32
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 27 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 152
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 157
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S7116",
+        "message": "If you want to access the first element of this array, do it explicitly directly instead of through a decayed pointer.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 160
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_free'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 242
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_strdup'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 280
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_hash_table_insert'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 284
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 306
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_hash_table_lookup_extended'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 316
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_hash_table_remove'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 321
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"localtime\" by a call to \"localtime_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 340
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_hash_table_lookup'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/attr.c",
+        "line": 361
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1820",
+        "message": "Refactor this structure so it has no more than 20 fields, rather than the 23 it currently has.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/booth.h",
+        "line": 285
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 44
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 68
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3562",
+        "message": "Add a \"default\" case to this switch statement.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 90
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'uLong' (aka 'unsigned long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 191
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'uLong' (aka 'unsigned long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 203
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S859",
+        "message": "cast from 'const char *' to 'char *' drops const qualifier",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 237
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"cp\" is \"char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 256
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 330
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 338
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"val\" is \"char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 387
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"strtok\" by a call to \"strtok_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 427
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"strtok\" by a call to \"strtok_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 430
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"key\" is \"char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 454
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5350",
+        "message": "Make the type of this variable a pointer-to-const. The current type of \"tp\" is \"struct toktab *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 456
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"tp\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 458
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"strtok\" by a call to \"strtok_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 478
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"strtok\" by a call to \"strtok_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 489
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"strtok\" by a call to \"strtok_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 499
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"strtok\" by a call to \"strtok_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 510
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_list_append'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 520
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 167 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 541
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 545
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 547
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S924",
+        "message": "Reduce the number of nested \"goto\" statements from 24 to 1 authorized.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 602
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 619
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1219",
+        "message": "Remove this misleading \"no_value\" label.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 664
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'unsigned long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 672
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 681
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 681
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'uint16_t' (aka 'unsigned short')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 709
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 775
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 796
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 805
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 819
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 829
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 838
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S859",
+        "message": "cast from 'const char *' to 'char *' drops const qualifier",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 883
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 922
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 932
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'uid_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 934
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"getpwnam\" by a call to \"getpwnam_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 942
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 944
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 944
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 953
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'gid_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 955
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"getgrnam\" by a call to \"getgrnam_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 963
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 965
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 965
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 982
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"site\" is \"char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 997
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 1008
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 1033
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3562",
+        "message": "Add a \"default\" case to this switch statement.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 1047
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1820",
+        "message": "Refactor this structure so it has no more than 20 fields, rather than the 42 it currently has.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.h",
+        "line": 77
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1820",
+        "message": "Refactor this structure so it has no more than 20 fields, rather than the 21 it currently has.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/config.h",
+        "line": 292
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1905",
+        "message": "Remove this redundant cast.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 43
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"fd\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 62
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S7116",
+        "message": "If you want to access the first element of this array, do it explicitly directly instead of through a decayed pointer.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 83
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 130
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"sig\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 155
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 169
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 192
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 193
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 230
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"node\" is \"struct booth_site *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 38
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'time_t' (aka 'long') to 'uint32_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 90
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 91
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 121
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3358",
+        "message": "Extract this nested conditional operator into an independent statement.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 143
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"site\" is \"struct booth_site *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 156
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 264
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long') to 'unsigned int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 271
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"tk\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 274
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 283
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/inline-fn.h",
+        "line": 288
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S859",
+        "message": "cast from 'const struct booth_site *' to 'struct booth_site *' drops const qualifier",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 97
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S912",
+        "message": "Remove any side effects from right hand operands of logical || operator.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 126
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 210
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 220
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 222
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"localtime\" by a call to \"localtime_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 237
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'unsigned int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 264
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5350",
+        "message": "Make the type of this variable a pointer-to-const. The current type of \"p\" is \"char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 291
+      },
+      {
+        "type": "BUG",
+        "rule": "c:S3519",
+        "message": "Memory copy function overflows the destination buffer",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 303
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 335
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S936",
+        "message": "Either add a parameter list or the \"&\" operator to this use of \"message_recv\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 414
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 434
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3358",
+        "message": "Extract this nested conditional operator into an independent statement.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 447
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: '__off_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 470
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 479
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 34 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 509
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 513
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 549
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 555
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 694
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S7116",
+        "message": "If you want to access the first element of this array, do it explicitly directly instead of through a decayed pointer.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 696
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 709
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 40 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 750
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 757
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S7116",
+        "message": "If you want to access the first element of this array, do it explicitly directly instead of through a decayed pointer.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 771
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 834
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 854
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 868
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1066",
+        "message": "Merge this \"if\" statement with the enclosing one.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 901
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 916
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S2479",
+        "message": "Replace the tabulation characters with its escaped value \"\\t\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 967
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 998
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"hostname\" is \"char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1009
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1011
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'socklen_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1022
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 89 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1039
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S924",
+        "message": "Reduce the number of nested \"goto\" statements from 2 to 1 authorized.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1125
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1149
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1187
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1330
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1332
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1366
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"sig\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1455
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"sig\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1460
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1066",
+        "message": "Merge this \"if\" statement with the enclosing one.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1480
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'set_proc_title'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1517
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'init_set_proc_title'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1621
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'cl_log_set_entity'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1635
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3358",
+        "message": "Extract this nested conditional operator into an independent statement.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 139
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1905",
+        "message": "Remove this redundant cast.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 142
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 208
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S886",
+        "message": "Refactor this loop so that it is less error-prone.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 211
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S912",
+        "message": "Remove any side effects from right hand operands of logical && operator.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 211
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"name\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 279
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"name\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 286
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 289
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 304
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"name\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 307
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"name\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 314
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int')",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 319
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"tk\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 322
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"name\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 322
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"val\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 323
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 354
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_strdup'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 375
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 391
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'xmlDocGetRootElement'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 397
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'xmlGetLastError'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 462
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 486
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"msg\" is \"struct boothc_ticket_msg *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 71
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"msg\" is \"struct boothc_ticket_msg *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 110
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 157
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5350",
+        "message": "Make the type of this variable a pointer-to-const. The current type of \"v\" is \"struct booth_site *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 160
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 162
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 182
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1066",
+        "message": "Merge this \"if\" statement with the enclosing one.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 477
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1909",
+        "message": "Remove this \"goto\" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 719
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1066",
+        "message": "Merge this \"if\" statement with the enclosing one.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 901
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 29 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 919
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/raft.c",
+        "line": 926
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_list_append'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/request.c",
+        "line": 49
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S859",
+        "message": "cast from 'const void *' to 'struct request *' drops const qualifier",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/request.c",
+        "line": 57
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_list_delete_link'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/request.c",
+        "line": 64
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 54
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 107
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S924",
+        "message": "Reduce the number of nested \"goto\" statements from 2 to 1 authorized.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 221
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'g_hash_table_lookup'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 226
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 34 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 392
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 397
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 398
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"localtime\" by a call to \"localtime_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 426
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1912",
+        "message": "Replace this call to the non reentrant function \"localtime\" by a call to \"localtime_r\".",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 436
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S7116",
+        "message": "If you want to access the first element of this array, do it explicitly directly instead of through a decayed pointer.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 439
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"site_index\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 478
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 479
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'unsigned int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 500
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 27 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 575
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 678
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 742
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 743
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 810
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 936
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 955
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 48 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1009
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1038
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1056
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1062
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1271
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1359
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"tk\" is \"struct ticket_config *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1364
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1366
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1368
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 1382
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:src/ticket.h",
+        "line": 156
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'long' to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 32
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"a\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 36
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"p\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 45
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"p\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 50
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 54
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"src\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 89
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"a\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 97
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"b\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 97
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"a\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 108
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"b\" is \"struct timespec *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 108
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 136
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'TIMEVAL_TO_TIMESPEC'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 141
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 171
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S819",
+        "message": "call to undeclared function 'TIMEVAL_TO_TIMESPEC'; ISO C99 and later do not support implicit function declarations",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/timer.c",
+        "line": 176
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S995",
+        "message": "Make the type of this parameter a pointer-to-const. The current type of \"ipaddr\" is \"unsigned char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 81
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 89
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 90
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5350",
+        "message": "Make the type of this variable a pointer-to-const. The current type of \"n_a\" is \"unsigned char *\".",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 91
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5955",
+        "message": "Declare the variable \"i\" inside the loop.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 101
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1066",
+        "message": "Merge this \"if\" statement with the enclosing one.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 132
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 39 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 145
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'int' to 'unsigned char'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 184
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 204
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 233
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 247
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 337
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 340
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 356
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 359
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 361
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S999",
+        "message": "This goto statement must be replaced by a standard iteration statement.",
+        "severity": "BLOCKER",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 371
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 382
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 508
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 536
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 595
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 597
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1066",
+        "message": "Merge this \"if\" statement with the enclosing one.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 608
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 624
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 647
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 657
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 715
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 752
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 817
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S5276",
+        "message": "implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 856
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1659",
+        "message": "Define each identifier in a dedicated statement.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 888
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"data\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 978
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"len\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 978
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"from\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 1052
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"buf\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 1052
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S1172",
+        "message": "Remove the unused parameter \"len\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.c",
+        "line": 1052
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "c:S3562",
+        "message": "Add a \"default\" case to this switch statement.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:src/transport.h",
+        "line": 76
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 295
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 583
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 584
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 585
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 586
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 214
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1135
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 428
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5801",
+        "message": "Make sure use of \"strcpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 433
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5816",
+        "message": "Make sure use of \"strncpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 147
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5816",
+        "message": "Make sure use of \"strncpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 891
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5816",
+        "message": "Make sure use of \"strncpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 797
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5816",
+        "message": "Make sure use of \"strncpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1005
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5816",
+        "message": "Make sure use of \"strncpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1588
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5816",
+        "message": "Make sure use of \"strncpy\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1625
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5814",
+        "message": "Make sure use of \"strcat\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 215
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5814",
+        "message": "Make sure use of \"strcat\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 216
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5814",
+        "message": "Make sure use of \"strcat\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1150
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5814",
+        "message": "Make sure use of \"strcat\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1503
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5814",
+        "message": "Make sure use of \"strcat\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/ticket.c",
+        "line": 437
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 672
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 684
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 685
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/config.c",
+        "line": 886
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 209
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 209
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S5813",
+        "message": "Make sure use of \"strlen\" is safe here.",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 1000
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S6069",
+        "message": "Make sure use of \"sprintf\" function is safe here or replace it with a call to \"snprintf\".",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/handler.c",
+        "line": 43
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S6069",
+        "message": "Make sure use of \"sprintf\" function is safe here or replace it with a call to \"snprintf\".",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 115
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S6069",
+        "message": "Make sure use of \"sprintf\" function is safe here or replace it with a call to \"snprintf\".",
+        "severity": "HIGH",
+        "component": "7MMA7_VulnDetectGA:src/pacemaker.c",
+        "line": 117
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S2612",
+        "message": "Granting permissions to \"others\" can lead to unauthorized access to files.",
+        "severity": "MEDIUM",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 875
+      },
+      {
+        "type": "SECURITY_HOTSPOT",
+        "rule": "c:S2612",
+        "message": "Granting permissions to \"others\" can lead to unauthorized access to files.",
+        "severity": "MEDIUM",
+        "component": "7MMA7_VulnDetectGA:src/main.c",
+        "line": 882
+      }
+    ]
+  }
+]

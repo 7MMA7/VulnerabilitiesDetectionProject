@@ -1,0 +1,994 @@
+[
+  {
+    "idx": 195029,
+    "target": 1,
+    "branch": "analysis-195029-vuln-19787707706",
+    "scanned_dir": "tensorflow/core/graph",
+    "issues": [
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/algorithm_test.cc",
+        "line": 33
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/algorithm_test.cc",
+        "line": 34
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1188",
+        "message": "This lambda has 24 lines, which is greater than the 20 lines authorized. Split it into several lambdas or functions, or make it a named function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/collective_order.cc",
+        "line": 37
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 42 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/collective_order.cc",
+        "line": 70
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/collective_order.cc",
+        "line": 132
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/collective_order.cc",
+        "line": 133
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5945",
+        "message": "Use \"std::array\" or \"std::vector\" instead of a C-style array.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/colors.cc",
+        "line": 25
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5421",
+        "message": "Global variables should be const.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/colors.cc",
+        "line": 25
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 383
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 397
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 416
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 427
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 435
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 447
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 457
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 544
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel_test.cc",
+        "line": 36
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel_test.cc",
+        "line": 45
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3490",
+        "message": "Use \"=default\" instead of the default implementation of this special member functions.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/edgeset_test.cc",
+        "line": 26
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5025",
+        "message": "Rewrite the code so that you no longer need this \"delete\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/edgeset_test.cc",
+        "line": 27
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5025",
+        "message": "Rewrite the code so that you no longer need this \"delete\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/edgeset_test.cc",
+        "line": 31
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph.cc",
+        "line": 323
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph.cc",
+        "line": 704
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5416",
+        "message": "\"using\" should be preferred to \"typedef\" for type aliasing.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 87
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 91
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5416",
+        "message": "\"using\" should be preferred to \"typedef\" for type aliasing.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 106
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S107",
+        "message": "This function has 8 parameters, which is greater than the 7 authorized.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 195
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1110",
+        "message": "Remove these redundant parentheses.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 215
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1110",
+        "message": "Remove these redundant parentheses.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 240
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1110",
+        "message": "Remove these redundant parentheses.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 299
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1110",
+        "message": "Remove these redundant parentheses.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 312
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 367
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1188",
+        "message": "This lambda has 34 lines, which is greater than the 20 lines authorized. Split it into several lambdas or functions, or make it a named function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 371
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 573
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 632
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 59 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 634
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S924",
+        "message": "Reduce the number of nested \"break\" statements from 2 to 1 authorized.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 697
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 701
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 716
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 889
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3656",
+        "message": "Member variables should not be \"protected\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition_test.cc",
+        "line": 197
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3656",
+        "message": "Member variables should not be \"protected\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_test.cc",
+        "line": 53
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_test.cc",
+        "line": 333
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_test.cc",
+        "line": 375
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S6005",
+        "message": "Replace this declaration by a structured binding declaration.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_test.cc",
+        "line": 382
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5421",
+        "message": "Global variables should be const.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse.cc",
+        "line": 92
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5008",
+        "message": "Replace this use of \"void *\" with a more meaningful type.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse.cc",
+        "line": 126
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5008",
+        "message": "Replace this use of \"void *\" with a more meaningful type.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse.cc",
+        "line": 146
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5827",
+        "message": "Replace the redundant type with \"auto\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse.cc",
+        "line": 148
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5945",
+        "message": "Use \"std::string\" instead of a C-style char array.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse.cc",
+        "line": 190
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse.cc",
+        "line": 278
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse_test.cc",
+        "line": 38
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse_test.cc",
+        "line": 42
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse_test.cc",
+        "line": 166
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph.cc",
+        "line": 41
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5416",
+        "message": "\"using\" should be preferred to \"typedef\" for type aliasing.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph.cc",
+        "line": 46
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph.cc",
+        "line": 100
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph_test.cc",
+        "line": 36
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph_test.cc",
+        "line": 37
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5025",
+        "message": "Rewrite the code so that you no longer need this \"delete\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph_test.cc",
+        "line": 124
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph_test.cc",
+        "line": 315
+      }
+    ]
+  },
+  {
+    "idx": 220201,
+    "target": 0,
+    "branch": "analysis-220201-fixed-19787707706",
+    "scanned_dir": "tensorflow/core/graph",
+    "issues": [
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/algorithm_test.cc",
+        "line": 33
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/algorithm_test.cc",
+        "line": 34
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1188",
+        "message": "This lambda has 24 lines, which is greater than the 20 lines authorized. Split it into several lambdas or functions, or make it a named function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/collective_order.cc",
+        "line": 37
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 42 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/collective_order.cc",
+        "line": 70
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/collective_order.cc",
+        "line": 132
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/collective_order.cc",
+        "line": 133
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5945",
+        "message": "Use \"std::array\" or \"std::vector\" instead of a C-style array.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/colors.cc",
+        "line": 25
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5421",
+        "message": "Global variables should be const.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/colors.cc",
+        "line": 25
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 383
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 397
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 416
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 427
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 435
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 447
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 457
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel.cc",
+        "line": 544
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel_test.cc",
+        "line": 36
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/costmodel_test.cc",
+        "line": 45
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3490",
+        "message": "Use \"=default\" instead of the default implementation of this special member functions.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/edgeset_test.cc",
+        "line": 26
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5025",
+        "message": "Rewrite the code so that you no longer need this \"delete\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/edgeset_test.cc",
+        "line": 27
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5025",
+        "message": "Rewrite the code so that you no longer need this \"delete\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/edgeset_test.cc",
+        "line": 31
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph.cc",
+        "line": 329
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph.cc",
+        "line": 710
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5416",
+        "message": "\"using\" should be preferred to \"typedef\" for type aliasing.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 87
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 91
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5416",
+        "message": "\"using\" should be preferred to \"typedef\" for type aliasing.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 106
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S107",
+        "message": "This function has 8 parameters, which is greater than the 7 authorized.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 195
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1110",
+        "message": "Remove these redundant parentheses.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 215
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1110",
+        "message": "Remove these redundant parentheses.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 240
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1110",
+        "message": "Remove these redundant parentheses.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 299
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1110",
+        "message": "Remove these redundant parentheses.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 312
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 367
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1188",
+        "message": "This lambda has 34 lines, which is greater than the 20 lines authorized. Split it into several lambdas or functions, or make it a named function.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 371
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 573
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 632
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3776",
+        "message": "Refactor this function to reduce its Cognitive Complexity from 59 to the 25 allowed.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 634
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S924",
+        "message": "Reduce the number of nested \"break\" statements from 2 to 1 authorized.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 697
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 701
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S134",
+        "message": "Refactor this code to not nest more than 3 if|for|do|while|switch statements.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 716
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition.cc",
+        "line": 889
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3656",
+        "message": "Member variables should not be \"protected\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_partition_test.cc",
+        "line": 197
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3656",
+        "message": "Member variables should not be \"protected\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_test.cc",
+        "line": 53
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_test.cc",
+        "line": 333
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_test.cc",
+        "line": 375
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S6005",
+        "message": "Replace this declaration by a structured binding declaration.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/graph_test.cc",
+        "line": 382
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5421",
+        "message": "Global variables should be const.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse.cc",
+        "line": 92
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5008",
+        "message": "Replace this use of \"void *\" with a more meaningful type.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse.cc",
+        "line": 126
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5008",
+        "message": "Replace this use of \"void *\" with a more meaningful type.",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse.cc",
+        "line": 146
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5827",
+        "message": "Replace the redundant type with \"auto\".",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse.cc",
+        "line": 148
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5945",
+        "message": "Use \"std::string\" instead of a C-style char array.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse.cc",
+        "line": 190
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse.cc",
+        "line": 278
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse_test.cc",
+        "line": 38
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S125",
+        "message": "Remove the commented out code.",
+        "severity": "MAJOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse_test.cc",
+        "line": 42
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/optimizer_cse_test.cc",
+        "line": 166
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph.cc",
+        "line": 41
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5416",
+        "message": "\"using\" should be preferred to \"typedef\" for type aliasing.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph.cc",
+        "line": 46
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph.cc",
+        "line": 100
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph_test.cc",
+        "line": 36
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S1135",
+        "message": "Complete the task associated to this \"TODO\" comment.",
+        "severity": "INFO",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph_test.cc",
+        "line": 37
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S5025",
+        "message": "Rewrite the code so that you no longer need this \"delete\".",
+        "severity": "CRITICAL",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph_test.cc",
+        "line": 124
+      },
+      {
+        "type": "CODE_SMELL",
+        "rule": "cpp:S3609",
+        "message": "Remove the redundant \"static\" specifier.",
+        "severity": "MINOR",
+        "component": "7MMA7_VulnDetectGA:tensorflow/core/graph/subgraph_test.cc",
+        "line": 315
+      }
+    ]
+  }
+]
