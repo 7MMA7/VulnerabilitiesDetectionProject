@@ -1,0 +1,52 @@
+name: SonarCloud Proxy Scan
+
+on:
+  workflow_dispatch:
+    inputs:
+      chunk_file:
+        description: 'Chunk JSONL to process'
+        required: true
+        default: 'chunks/chunk_000.jsonl'
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    env:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      SONAR_ORG: ${{ secrets.SONAR_ORGANIZATION }}
+      SONAR_PROJECT_KEY: ${{ secrets.SONAR_KEYPROJECT }}
+
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install SonarScanner CLI
+        run: npm install -g sonar-scanner
+        
+      - name: Install Python dependencies
+        run: pip install requests gitpython
+
+      - name: Run SonarCloud Scan
+        run: python scripts/scan_sonarcloud.py ${{ github.event.inputs.chunk_file }}
+
+      - name: Filter JSONL per file_path
+        run: python scripts/output_format.py final_results.json ${{ github.event.inputs.chunk_file }} filtered_results.jsonl
+
+      - name: Upload Results
+        uses: actions/upload-artifact@v4
+        with:
+          name: analysis-results
+          path: |
+            final_results.json
+            filtered_results.jsonl
+
+
+
